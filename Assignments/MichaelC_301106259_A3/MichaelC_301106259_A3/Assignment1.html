@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta content="en-us" http-equiv="Content-Language">
+    <meta charset="utf-8" />
+    <title></title>
+	<link href="Assignment1.css" rel="stylesheet" type="text/css">
+    <script src="modernizr.custom.05819.js"></script>
+</head>
+<body>
+	<div>
+		<h1 class="center">BMR Calculator</h1>
+		<form>
+			<table style="width: 100%">
+				<tr>
+					<td class="tableColumns">Gender: </td>
+					<td>
+						<input name="Gender" tabindex="1" type="radio" id="male" value="male">
+						Male <input name="Gender" tabindex="3" type="radio" id="female" value="female">
+						Female
+					</td>
+				</tr>
+				<tr>
+					<td class="tableColumns">
+						Your Age:&nbsp;
+					</td>
+					<td>
+						<input id="Age" name="Age" size="4" tabindex="5" type="text">
+					</td>
+				</tr>
+				<tr>
+					<td class="tableColumns"><h4>Height:</h4></td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td class="tableColumns">Feet:&nbsp; </td>
+					<td>
+						<input id="Feet" name="Feet" type="text" size="4" tabindex="7"> Inches:
+						<input id="Inches" name="Inches" size="4" tabindex="9" type="text">
+					</td>
+				</tr>
+				<tr>
+					<td class="tableColumns">Weight: </td>
+					<td>
+						<input id="Pounds" name="Pounds" size="5" tabindex="11" type="text">
+						Pounds
+					</td>
+				</tr>
+				<tr>
+					<td class="tableColumns">
+						<h4>Select Your Level of Activity:</h4>
+					</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td class="tableColumns">
+						<input name="Activity" tabindex="13" type="radio" id="light" value="light">
+					</td>
+					<td>
+						<p>
+							&nbsp;Sedentary or Light Activity (EX. Office worker with little to no
+							excersice)
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="tableColumns"><input name="Activity" tabindex="15" type="radio" id="moderate" value="moderate"></td>
+					<td>
+						<p>
+							&nbsp;Active or Moderately Active (EX. Construction worker or running one hour
+							per day)
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="tableColumns"><input name="Activity" tabindex="17" type="radio" id="vigorous" value="vigorous"></td>
+					<td>
+						<p>&nbsp;Vigorously Active (EX. Agricultureal worker or swimming two hours daily)</p>
+					</td>
+				</tr>
+			</table>
+			<p class="center">
+				<input id="CalculateButton" tabindex="19" type="button" value="Calculate BMR" class="button">
+			</p>
+		</form>
+		<script src="Assignment1.js"></script>
+		</div>
+</body>
+</html>

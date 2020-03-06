@@ -1,0 +1,18 @@
+﻿li {
+	display: inline;
+	font-family: "Arial Black";
+	text-align: center;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	padding-right: 5px;
+}
+body {
+	width: 520px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #66CCFF;
+}
+nav {
+	background-color: #00FFFF;
+	border: thin ridge #003366;
+}

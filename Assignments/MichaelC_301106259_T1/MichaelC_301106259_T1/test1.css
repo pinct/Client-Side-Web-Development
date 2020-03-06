@@ -1,0 +1,12 @@
+﻿#errorText {
+    display: none;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    margin: 15px 15px 0;
+    background: rgb(124,124,136);
+    color: white;
+    border: 2px solid rgb(190,50,38);
+}
+body {
+}

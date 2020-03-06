@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Test 1 Delivery</title>
+	<link href="test1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="errorText"></div>
+    <form action="" method="post">
+        <div>
+            <fieldset id="billingAddress" class="text">
+                <legend>Billing Address</legend>
+
+                <table style="width: 100%">
+                    <tr>
+                        <td><label for="fName">First Name</label></td>
+                        <td><input name="fName" size="30" tabindex="1" type="text" required="required"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lName">Last Name</label></td>
+                        <td><input name="lName" size="30" tabindex="3" type="text" required="required"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="address">Address</label></td>
+                        <td><input name="address" size="30" tabindex="5" type="text" required="required"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Gender</label></td>
+                        <td>
+                            <select name="gender" tabindex="7" required="required">
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">Phone #</label></td>
+                        <td><input name="phone" size="14" tabindex="9" type="text" required="required"></td>
+                    </tr>
+                    <tr>
+                        <td style="height: 23px"><label for="year" required="required">Year</label></td>
+                        <td style="height: 23px">
+                            <select name="year" tabindex="11" required="required">
+                                <option value="2015">2015</option>
+                                <option value="2016">2016</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <div class="errorMessage"></div>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset id="deliveryAddress" class="text">
+                <legend>Delivery Address</legend>
+                <table style="width: 100%">
+                    <tr>
+                        <td><input name="same" type="checkbox" id="same"><label for="same" required="required">Same as billing?</label></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td><label for="fNameD">First Name</label></td>
+                        <td><input name="fNameD" size="30" tabindex="13" type="text" required="required"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lNameD">Last Name</label></td>
+                        <td><input name="lNameD" size="30" tabindex="15" type="text" required="required"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="addressD">Address</label></td>
+                        <td><input name="addressD" size="30" tabindex="17" type="text" required="required"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="genderD">Gender</label></td>
+                        <td>
+                            <select name="genderD" tabindex="19" required="required">
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="phoneD">Phone #</label></td>
+                        <td><input name="phoneD" size="21" tabindex="9" type="text" required="required"></td>
+                    </tr>
+                    <tr>
+                        <td style="height: 23px"><label for="yearD" required="required">Year</label></td>
+                        <td style="height: 23px">
+                            <select name="yearD" required="required">
+                                <option value="2015">2015</option>
+                                <option value="2016">2016</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <div class="errorMessage"></div>
+            </fieldset>
+        </div>
+        <input name="subit" type="submit" value="Submit Form" />
+    </form>
+    <script src="test1.js"></script>
+</body>
+</html>

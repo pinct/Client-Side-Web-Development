@@ -1,0 +1,50 @@
+﻿div {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	background-color: #3366CC;
+	border: medium inset #FFFFFF;
+	border-radius: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1050px;
+	color: #FFFFFF;
+	text-align: center;
+	vertical-align: top;
+}
+body {
+	background-color: #3366CC;
+}
+td {
+	border: thin solid #FFFFFF;
+	width: 150px;
+}
+th {
+	border: thin solid #FFFFFF;
+	background-color: #0000FF;
+	font-size: large;
+}
+caption {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	font-size: x-large;
+	background-color: #000066;
+	padding: 8px;
+}
+.differentMonth {
+	background-color: #000066;
+}
+article td p:first-of-type{
+	font-size: large;
+	text-align: left;
+	top: 5px;
+}
+table {
+	border-spacing: 0px;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+footer {
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background-color: #000066;
+	padding: 8px;
+}
